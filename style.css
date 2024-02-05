@@ -1,0 +1,15 @@
+body {
+    background-color: #aaa;
+    margin: 0px 10vmin;
+}
+
+.presentation {
+    display: flex;
+    flex-direction: row;
+}
+
+.presentation > p {
+    color: red;
+    align-self: end;
+    margin: 25px;
+}
